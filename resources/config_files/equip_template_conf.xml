@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+
+    <!-- 设备模板 -->
+    <equipments>
+
+        <!-- 断路器 CBreaker -->
+        <equipment>
+            <type>CBreaker</type>
+            <similarity>0.7</similarity>
+            <template>resources/equip_templates/c_breaker/</template>
+        </equipment>
+
+        <!-- 接地刀闸 GroundDisconnector -->
+        <equipment>
+            <type>GroundDisconnector</type>
+            <similarity>0.825</similarity>
+            <template>resources/equip_templates/ground_disconnector/</template>
+        </equipment>
+
+        <!-- 隔离刀闸 Disconnector -->
+        <equipment>
+            <type>Disconnector</type>
+            <similarity>0.87</similarity>
+            <template>resources/equip_templates/disconnector/</template>
+        </equipment>
+
+        <!-- 两卷变 Transformer2 -->
+        <equipment>
+            <type>Transformer2</type>
+            <similarity>0.7</similarity>
+            <template>resources/equip_templates/transformer2/</template>
+        </equipment>
+
+        <!-- 三卷变 Transformer3 -->
+        <equipment>
+            <type>Transformer3</type>
+            <similarity>0.7</similarity>
+            <template>resources/equip_templates/transformer3/</template>
+        </equipment>
+
+        <!-- 电容器 Capacitor -->
+        <equipment>
+            <type>Capacitor</type>
+            <similarity>0.7</similarity>
+            <template>resources/equip_templates/capacitor/</template>
+        </equipment>
+
+        <!-- 电抗器 Reactor -->
+        <equipment>
+            <type>Reactor</type>
+            <similarity>0.7</similarity>
+            <template>resources/equip_templates/reactor/</template>
+        </equipment>
+
+        <!-- 线端 ACLineEnd -->
+        <equipment>
+            <type>ACLineEnd</type>
+            <similarity>0.9</similarity>
+            <template>resources/equip_templates/acline_end/</template>
+        </equipment>
+
+        <!-- 无功补偿装置 SVG -->
+        <equipment>
+            <type>SVG</type>
+            <similarity>0.7</similarity>
+            <template>resources/equip_templates/svg/</template>
+        </equipment>
+
+        <!-- 发电机 Generator -->
+        <equipment>
+            <type>Generator</type>
+            <similarity>0.7</similarity>
+            <template>resources/equip_templates/generator/</template>
+        </equipment>
+
+    </equipments>
+
+</template>
